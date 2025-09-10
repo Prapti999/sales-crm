@@ -16,7 +16,7 @@
 
 ## Deployment Links
    * Frontend (Next.js): https://sales-9km4bgvn2-prapti999s-projects.vercel.app
-   * Backend (Express API): https://sales-crm-production-c891.up.railway.app
+   * Backend (Express API): https://sales-crm-production-10.up.railway.app
 
 
 ## Screenshot - <img width="1680" height="1050" alt="dashboard" src="https://github.com/user-attachments/assets/e4ed5ac8-a859-4421-a102-c6eaadbc4239" />
