@@ -15,7 +15,7 @@
   - Deployment: Vercel (frontend), Railway (backend)
 
 ## Deployment Links
-   * Frontend (Next.js): https://sales-9km4bgvn2-prapti999s-projects.vercel.app
+   * Frontend (Next.js): (https://sales-crm-git-main-prapti999s-projects.vercel.app?_vercel_share=w0kFyehG160kHMVQDfIM35k7fZkO05bj)
    * Backend (Express API): http://sales-crm-production-10.up.railway.app
 
 
