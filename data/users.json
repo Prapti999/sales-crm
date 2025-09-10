@@ -1,0 +1,58 @@
+[
+  {
+    "id": "u1",
+    "name": "Admin User",
+    "email": "admin@demo.com",
+    "password": "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewdBPj/VcSAg/9qm",
+    "role": "admin",
+    "createdAt": "2025-09-10T04:11:21.350Z"
+  },
+  {
+    "id": "u2",
+    "name": "Sales Manager",
+    "email": "manager@demo.com",
+    "password": "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewdBPj/VcSAg/9qm",
+    "role": "manager",
+    "createdAt": "2025-09-10T04:11:21.350Z"
+  },
+  {
+    "id": "u3",
+    "name": "Sales Rep",
+    "email": "rep@demo.com",
+    "password": "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewdBPj/VcSAg/9qm",
+    "role": "rep",
+    "createdAt": "2025-09-10T04:11:21.350Z"
+  },
+  {
+    "id": "u1757507023490cb6lnxixu",
+    "name": "Omkar Kumbhar",
+    "email": "omkar10@gmail.com",
+    "password": "$2a$12$/lzU4v01WwLd9Aame3VWRetGS9TKOfpEGqHPFolbEUdsT/Y.8Zine",
+    "role": "rep",
+    "createdAt": "2025-09-10T12:23:43.490Z"
+  },
+  {
+    "id": "u17575299851339wfi7u8xz",
+    "name": "prapti bhagwat",
+    "email": "prapti10@gmail.com",
+    "password": "$2a$12$oJKkTRtcWtTYqZedd82keeNySfANcUQnW/4DxW7B33mt4potDVPZ.",
+    "role": "rep",
+    "createdAt": "2025-09-10T18:46:25.133Z"
+  },
+  {
+    "id": "u175753065731356zna9tg3",
+    "name": "samu",
+    "email": "samu10@gmail.com",
+    "password": "$2a$12$aIju6DR4P1LMUqfzc1VNs.0mykyeUDc0kdESq.ZLT/i8kRbiUbk6m",
+    "role": "manager",
+    "createdAt": "2025-09-10T18:57:37.313Z"
+  },
+  {
+    "id": "u17575307317940wn094vno",
+    "name": "aishu",
+    "email": "aishu10@gmail.com",
+    "password": "$2a$12$CfyjJH5ZY2Ts7Dw.FQOVw.4cMMGKa4O8U5kNPa4RhCEwgqGn8slTC",
+    "role": "admin",
+    "createdAt": "2025-09-10T18:58:51.794Z"
+  }
+]

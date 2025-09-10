@@ -1,0 +1,22 @@
+.centerScreen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+  border-radius: 50%;
+  height: 128px;
+  width: 128px;
+  border-bottom: 8px solid #2563eb;
+  border-left: 8px solid #e5e7eb;
+  border-right: 8px solid #e5e7eb;
+  border-top: 8px solid #e5e7eb;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg);}
+  100% { transform: rotate(360deg);}
+}

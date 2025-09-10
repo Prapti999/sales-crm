@@ -1,0 +1,188 @@
+.registerBg {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #eef2ff, #c7d2fe);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 16px;
+}
+
+.registerWrapper {
+  max-width: 420px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.registerHeader {
+  text-align: center;
+}
+
+.iconWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.iconBg {
+  background: #2563eb;
+  padding: 12px;
+  border-radius: 50%;
+  display: inline-flex;
+}
+
+.icon {
+  color: #fff;
+  width: 32px;
+  height: 32px;
+}
+
+.registerHeader h2 {
+  margin-top: 24px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #111827;
+}
+
+.registerHeader p {
+  margin-top: 8px;
+  font-size: 1rem;
+  color: #6b7280;
+}
+
+.registerCard {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  padding: 32px;
+}
+
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.errorBox {
+  background: #fee2e2;
+  color: #b91c1c;
+  padding: 12px;
+  border: 1px solid #fecaca;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.formGroup {
+  margin-bottom: 0;
+}
+
+.formLabel {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 8px;
+}
+
+.inputWrapper {
+  position: relative;
+}
+
+.inputIcon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #9ca3af;
+  pointer-events: none;
+}
+
+.inputField {
+  width: 100%;
+  padding: 12px 40px 12px 40px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1rem;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+.inputField:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37,99,235,0.15);
+}
+
+.showPasswordBtn {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #9ca3af;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.showPasswordBtn:hover {
+  color: #374151;
+}
+
+.selectField {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+.selectField:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37,99,235,0.15);
+}
+
+.registerBtn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(90deg, #2563eb, #3b82f6);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+  box-shadow: 0 2px 8px rgba(37,99,235,0.08);
+}
+
+.registerBtn:hover:not(:disabled) {
+  background: linear-gradient(90deg, #1d4ed8, #2563eb);
+}
+
+.registerBtn:disabled {
+  background: #93c5fd;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.registerFooter {
+  margin-top: 24px;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #6b7280;
+}
+
+.registerFooterLink {
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.registerFooterLink:hover {
+  text-decoration: underline;
+}
